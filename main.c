@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdint.h>
+int main()
+{
+    int32_t passcode = 1993;
+    int32_t Passcode ;
+    printf ("Enter the Passcode :");
+    scanf ("%u", &Passcode);
+    
+
+if (passcode == Passcode)
+  {
+     printf ("Access Granted");
+
+}
+else
+{
+   printf ("Access denied");
+}
+return 0;
+}
