@@ -1,0 +1,27 @@
+#include <stdio.h>
+void main()
+{
+    int i;
+    int arr1[5];
+    int arr2[5];
+    int arr3[5];
+    
+    for(i=0;i<5;i++)
+    {
+        printf("Enter the values for arr1:");
+        scanf("%d",&arr1[i]);
+    }
+    for(i=0;i<5;i++)
+    {
+        printf("Enter the values for arr2:");
+        scanf("%d",&arr2[i]);
+    }
+    
+    
+    for(i=0;i<5;i++)
+    {
+        arr3[i]=arr1[i]+arr2[i];
+        printf("arr3 element at index %d is = %d\n",i,arr3[i]);
+    }
+    
+}
